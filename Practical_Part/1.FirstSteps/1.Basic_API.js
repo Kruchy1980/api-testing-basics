@@ -17,7 +17,7 @@ URL_2: "https://naukaapi.testoneo.com/6/"
 - Payload - The part which contain the proper Request for the API Endpoint
 - Preview - Shows main elemnts of page which is received by the API (CAn be HTML/JS/JSON/Code etc).
 - Response - displays the response received from specific Request
-- Initiator - ?? For later explanation
+- Initiator - Displays The resource of resource linked to "index.html" file
 - Timing - That Tab is showing the trimes of servers for response for specific elements are loaded/received from the Back-end
 !!!! If we can not see Payload tab then by clicking twice in the specific API requests it opens new page which shows Response of API which is sent to the server to receive specific information
 =======================================================
