@@ -8,7 +8,7 @@ API tests are focused on Business logic - it means that they are veryfies functi
 3. Tests Backend for the following results:
     * Efficiency
     * Security/Safety
-    * Correction of received data
+    * Correctivity of received data
 =========== Benefits/Advantages of API Testing
 1. API Tests are much faster than GUI Tests
 2. Generates lesser cost and are easier in MAINTTENANCE

@@ -17,11 +17,19 @@ Downloaded:
 1. Main page structure
 2. Logo - Stored at a different URL (quite long so I won't paste it)
 ===The above displayed to the user
-3. 2 JS scripts that contain the code executed when you hover the cursor over the logo
+3. 2 JS scripts that contain the code executed when we hover the cursor over the logo
 4. Full WebSite Address: "https://naukaapi.testoneo.com/1/"
-
+================================================================
 == Parts of URL Address:
 1. https:// --> protocol
 2. naukaapi.testoneo.com/ --> The URL for Server
 3. /1/ --> The path to proper resources
+====== HTTP Communication standard of Client <--> Server
+1. Client requests some source (HTTP Request)
+It contains:
+HTTP/S (Protocol) + Address URL
+2. The Request Response (HTTP Response)
+The Answer for HTTP Request
+3. Resources informartion
+According to the URL the resource is get from path 1 "https://naukaapi.testoneo.com/1/"
 */
