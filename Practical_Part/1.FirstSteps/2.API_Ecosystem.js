@@ -5,7 +5,7 @@
     * Responses
 - HTTP and REST API standards:
     * Responses Status Codes
-    * Statuses of sent request:
+    * Statuses of responses:
         - 100 - 1xx - Information statuses
         - 200 - 2xx - Correct operation statuses
         - 300 - 3xx - Redirection Messages
