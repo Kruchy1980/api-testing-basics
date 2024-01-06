@@ -48,11 +48,14 @@ pm.collectionVariables.set('newArticleId', createdArticleId);
 console.log('My new Article ID: ', pm.variables.get('newArticleId'));
 // ==========================================
 // DELETE 1. Pre-request Script
+!!!!! When we created a Collection variable than we do not need to use the assigning in DELETE Method because the variable is visible in whole collection an can be used  directly in Endpoint
 console.clear();
+========================== Not needed code
 // Get the newUserId variable
 let articleForDeleteId = pm.collectionVariables.get('newArticleId');
 // Verify:
 console.log('Article for Deletion - DELETE: ', articleForDeleteId);
+============= Not needed code ends here
 ======== 2. Endpoint
 {{api_url}}/:resource/{{newArticleId}}
 */
