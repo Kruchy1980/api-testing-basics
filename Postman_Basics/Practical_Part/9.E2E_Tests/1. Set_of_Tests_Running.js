@@ -24,4 +24,19 @@ In the main collection:
         // Save Email as well
         let emailTU1Id = jsonData.email;
         pm.collectionVariables.set('userTU1Email', emailTU1Id);
+
+============= STEPS After Seeding
+1. In E2E folder create new folder with name Actions
+2. In Actions folder create folder with name Step1 Users
+3. Create request: Get all users With TU1 and TU2 and get single user
+4. In Tests tab add code which verifies the users exists
+============= Articles tests
+1. In Actions Folder create Step2 folder
+    - In the follder create Post Create Article for user TU1
+    - PUT Create TA2 via update wit user TU2
+        - store articleId in collection VAriables
+    - GET all articles with TA1 and TA2
+    - Get articles with (with Param user id TU1)
+    - PATCH update aerticle TA1 title
+
 */
